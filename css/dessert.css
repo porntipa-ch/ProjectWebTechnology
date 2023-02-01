@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "montserrat";
+}
+
+body {
+    background: url(../images/background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.maincard {
+    margin: 2%;
+}
+
+.card {
+    width: 20%;
+ 
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 2%;
+}
+
+.image img {
+    max-width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 0px;
+}
+
+h1 {
+    color: black;
+    margin-top: -10px;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+
+.des {
+    padding: -30px;
+    text-align: center;
+    padding-top: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.class {
+    color: white;
+    font-size: 2em;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border-bottom: darkorange solid 4px;
+    width: fit-content;
+    text-align: center;
+    padding-bottom: 1%;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hidden{
+    margin-top: -30px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: darkorange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: darkorange;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}

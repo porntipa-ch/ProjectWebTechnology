@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- icon web -->
+    <link rel="stylesheet" href="./css/index.css">
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/popup.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <nav>
+            <!-- menu -->
+            <div class="menu">
+
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href=""> HOME </a></li>
+                        <li><a href=""> NEWS </a></li>
+                        <li><a href=""> ABOUT </a></li>
+                        <li><a href=""> CONTACT </a></li>
+
+                    </ul>
+                </div>
+                <div class="content">
+                    <h1>What do you want to eat?</h1>
+                </div>
+                <div class="button">
+                    <a href="#" class="btn btn-one" data-modal-target="#modal"> Login</a>
+
+                    <a href="#" class="btn btn-two" data-modal-target="#modal1"> Register</a>
+                </div>
+
+            </div>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">Login</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="./Home.html">
+                        <input type="text" placeholder="Username *" class="username"><br>
+                        <input type="password" placeholder="Password *" class="password"><br>
+                        <input type="checkbox" class="remember"> Remember me<br>
+                        <input type="submit" value="LOG IN" class="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="modal" id="modal1">
+                <div class="modal-header">
+                    <div class="title">Register</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="index.html">
+                        <input type="text" placeholder="Your Email *" class="mail"><br>
+                        <input type="text" placeholder="Username *" class="username"><br>
+                        <input type="password" placeholder="Password *" class="password"><br>
+                        <input type="password" placeholder="Confirm Password *" class="password"><br>
+                        <input type="checkbox" class="remember"> I agree the terms and conditions<br>
+                        <input type="submit" value="REGISTER" class="submit">
+                    </form>
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </nav>
+    </div>
+
+
+</body>
+
+</html>
